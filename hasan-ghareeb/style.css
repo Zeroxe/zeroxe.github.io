@@ -230,7 +230,7 @@ a.logo {
     color: #333;
 }
 .mid-header-area {
-    background: rgba(0, 0, 0, 0) url(https://i.imgur.com/2jGVG2u.jpg) no-repeat fixed center center / cover;
+    background: rgba(0, 0, 0, 0) url(homebg.webp) no-repeat fixed center center / cover;
     height: 100%;
     width:100%;
     position: relative;
@@ -494,106 +494,7 @@ span.project-img img {
     -webkit-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
 }
-/*=============================================
-		Start client area
-==============================================*/
 
-.client-area {
-    background: #f7f7f7;
-}
-.single-client {
-    text-align: center;
-}
-.client-image-area {
-    height: 88px;
-    margin: auto;
-    overflow: hidden;
-    text-align: center;
-    width: 88px;
-    border: 4px solid #ffff95;
-}
-.client-details {
-    position: relative;
-}
-.client-details > p {
-    color: #333;
-    padding: 0 61px;
-}
-.client-details h5 {
-    color: #222;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 27px;
-    margin-bottom: 3px;
-    letter-spacing: 1.5px;
-    margin-top: 18px;
-    text-transform: uppercase;
-}
-.client-details h6 {
-    color: #666;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 19px;
-    letter-spacing: 1.5px;
-}
-/*
-	owl-carousel customize
-*/
-
-.clients-says .owl-dots {
-    text-align: center;
-    margin-top: 34px;
-}
-.clients-says .owl-dot {
-    background: #000 none repeat scroll 0 0;
-    display: inline-block;
-    height: 9px;
-    margin-right: 10px;
-    margin-top: 10px;
-    width: 9px;
-}
-.clients-says .owl-dot.active {
-    background: #999;
-    -webkit-transition: all .4s linear;
-    -moz-transition: all .4s linear;
-    -ms-transition: all .4s linear;
-    -o-transition: all .4s linear;
-    transition: all .4s linear;
-}
-/*==========================================
-		Start contact area
-=============================================*/
-
-input.controler {
-    font-size: 14px;
-    margin-bottom: 12px;
-    padding: 14px 15px;
-    text-transform: capitalize;
-    width: 100%;
-    background: #f9f9f9;
-}
-.single > textarea {
-    border: none;
-    width: 100%;
-    text-transform: capitalize;
-    padding: 18px;
-    margin-top: 11px;
-    background: #f9f9f9;
-}
-.form-submit input[type="submit"] {
-    font-size: 12px;
-    text-transform: uppercase;
-    padding: 10px 38px;
-    background: #393939;
-    margin-top: 17px;
-    margin-left: 14px;
-    color: #fff;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-}
-.form-submit input[type="submit"]:hover {
-    background: #000;
-}
 /*======================================
 		footer area
 ========================================*/
